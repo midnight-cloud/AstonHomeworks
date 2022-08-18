@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">AstonHomeworks</string>
+    <string name="exercise_1">Exercise 1</string>
+    <string name="exercise_2">Exercise 2</string>
+    <string name="enter_url">Enter URL</string>
+    <string name="load">Load</string>
+    <string name="base_url">https://picsum.photos/500</string>
+
 </resources>
