@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ContactEditFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="32dp">
+
+        <ImageView
+            android:id="@+id/imageContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/example"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            style="@style/TextView_Name"
+            android:inputType="text"
+            android:hint="@string/enter_name"/>
+
+        <EditText
+            android:id="@+id/etLastName"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            style="@style/TextView_LastName"
+            android:inputType="text"
+            android:hint="@string/enter_last_name"/>
+
+        <EditText
+            android:id="@+id/etPhoneNumber"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            style="@style/TextView_PhoneNumber"
+            android:inputType="phone"
+            android:hint="@string/enter_phone_number"/>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:text="@string/btn_save"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>

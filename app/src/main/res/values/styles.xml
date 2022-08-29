@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextView_Name">
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">@string/example</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+    <style name="TextView_LastName">
+        <item name="android:textStyle">normal</item>
+        <item name="android:text">@string/example</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+    <style name="TextView_PhoneNumber">
+        <item name="android:textStyle">italic</item>
+        <item name="android:text">@string/example</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+</resources>
